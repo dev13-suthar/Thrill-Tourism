@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+    list-style: none;
+}
+
+.map{
+    width: 91%;
+}
+.main_div{
+    border: 1px solid red;
+}
+
+#flex{
+    width: 91%;
+}
+.img{
+   
+    display: inline;    
+}
+#cards{
+    width: 300px;
+    height: auto;
+}
+#List_items{
+    margin-left: 15%;
+}
+/* #footer{
+    width: 90%;
+} */
+@media (max-width:450px) {
+    #List_items{
+      margin-left: 1px;
+    }
+  }
